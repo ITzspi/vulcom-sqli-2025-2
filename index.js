@@ -1,3 +1,7 @@
+// Explorei a vulnerabilidade de SQL Injection no login inserindo user'
+//  -- no campo de usuário e qualquer valor na senha.
+// O -- comenta o resto da query, ignorando a verificação da senha e permitindo o acesso ao sistema
+
 // CTF - SQL Injection no Login
 // Tecnologias: Node.js, Express, SQLite
 
